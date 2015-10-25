@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  # The “root” method maps “/” (the root route) to a 'controller#action'. 
+  # In this case, the action name is arbitrary ­ “index” usually refers to the default action in a controller.
+  root 'home#index'
+    
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
