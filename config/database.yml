@@ -7,7 +7,6 @@
 default: &default
   adapter: postgresql
   username: lostlucidity
-  password: lostlucidity
   pool: 5
   timeout: 5000
 
@@ -24,4 +23,4 @@ test:
 
 production:
   <<: *default
-  database: solo-rails-project-prod
+  database: db/production.solo-rails-project
