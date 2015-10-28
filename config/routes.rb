@@ -1,7 +1,10 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
   # The “root” method maps “/” (the root route) to a 'controller#action'. 
   # In this case, the action name is arbitrary ­ “index” usually refers to the default action in a controller.
   root 'home#index'
+  get 'signup' => 'users#new'
     
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
