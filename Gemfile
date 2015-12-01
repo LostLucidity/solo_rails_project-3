@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'ruby'
+
 # By hashing the password with bcrypt, we ensure that an attacker won’t be able to log in to the site even if they 
 # manage to obtain a copy of the database.
 gem 'bcrypt'
